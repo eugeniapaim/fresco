@@ -90,7 +90,7 @@ if ( social_url == "mailto:?body=" ) {
 }
 var request_url = "";
 if ( social_url.indexOf("/pin/create/link/?url=") !== -1 ) {
-	request_url = social_url + encodeURIComponent( window.location.href ) + "&media=" + 'http://localhost/cursoWP/wp-content/uploads/2025/01/avocado-barbecue-cooked-725991.jpg';
+	request_url = social_url + encodeURIComponent( window.location.href ) + "&media=" + 'http://localhost/cursoWP/wp-content/uploads/2025/01/restaurante01.jpg';
 } else {
 	request_url = social_url + encodeURIComponent( window.location.href );
 }
